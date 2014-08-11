@@ -1,0 +1,65 @@
+- Run Copy From Camera script
+	This copies the raw files & movies off the card and into two folders, Temp and Temp 2. 
+	Then renames the files to match their date taken.
+
+- After this you deal with Temp more or less exclusively until you're done processing, 
+	Temp 2 is there to provide a base backup in case you accidentally delete or corrupt the working copy in temp
+
+- Start Digital Photo Professional (suite that comes with the camera), and go to Temp folder
+
+- Select a group of images, I usually do groups of events together, or if there's too many for that, 30 or so at a time
+
+- Immediately mark them as 'checkmark 3', which is just ALT+3. I mostly use a 3 checkmark system:
+	1 = post to web/send to people, these are the really good ones
+	2 = keep, but don't post, these usually also get copied to my tablet for individual showings
+	3 = discard 
+	
+	The exception to this is when I'm doing stacked photos like stars, or 3-frame HDR photos, 
+	both of which I mark as 4. This is because while I don't really want to keep the raw files 
+	(I keep the processed tiff file instead), I don't want them deleted with the 3s.
+
+- Then hit ctrl+right arrow, this takes you into the 'edit image' section, and brings with you the group you selected.
+
+- Go through each image, and using the raw tab on the tool pallete, touch up brightness, saturation, 
+	change the white balance and picture style, etc.
+
+- If you're like me you'll also want to make use of the trimming angle tool from here, which lets you quickly and easily
+	rotate the frame to level it, and do any cropping you want to do. The trimming tool picks 'free form' as the default
+	aspect ratio, which lets you do whatever, but I prefer to keep the original ratio, which is 3:2 or 2:3 depending on
+	shot rotation.
+
+- As you're going through, mark each photo you want to keep with either a 1 or 2 checkmark (again with alt+1 or alt+2).
+	Sometimes I have a ton of shots that are similar, and just want a quick weeding, so I'll pick a bunch and mark as 2,
+	and then come back and compare the 2s more closely to trim out the rest and mark them as 1 or 2 again afterwards.
+
+- When you're done with the group, ctrl+left arrow to get back to the folder view, and either move on to the next group, 
+	or delete the checkmark 3s, by going to the 'edit' menu, picking the 'check mark' sub menu, 
+	and pick 'select check mark 3 images only', I usually give a brief run through the folder view after to make sure it's
+	only picking what I'm expecting (cause I'm paranoid), and then delete them.
+
+- After that, you can go back and touch up individual photos more, or just move on to processing
+
+- I go back to select check mark 1s first, and hit 'batch process'. I process my stuff to jpg form unless it's going to
+	a stacking or HDR app, or I want to do more detailed photoshop work, in which case you want tiff files.
+
+- Batch process, max quality, I export to a 'processed' folder.
+
+- From the processed folder, I make copies into folders for the appropriate posting galleries, main, friends, family, special event, etc.
+
+- Then I resize the ones in the event folders to 1280xwhatever (I use irfanview for this, it has a batch resize mode which is very nice)
+
+- Then I go back to the originals in the processed folder and move them into my 'for tablet' folder.
+
+- Then go back to the photo app, and do the same thing for 2s, but for 2s, they only just get moved into the 'for tablet' folder.
+
+- Then back in the photo app, I move the photos I've processed into their respective archive folders. I archive the raw files only
+	(aside from the processed resized files), cause I can just re-generate those, and I can do loss-free touchups later for printing or
+	whatever if necessary. 
+
+- Remember: jpgs are lossy, and you lose detail every time you save a change to it, whereas raw files not only aren't lossy, they 
+	keep all the adjustments in a vector without altering the original, so you can just undo them back to the original if you want 
+	at any time.
+
+- Movie files I almost always convert to mkv with handbrake on a fairly decent quality setting, cause the size of those MOV files is
+	just nuts, and I never edit movies afterwards. If I change that I may start keeping the originals, but I don't take that many, so
+	it hasn't been a priority thus far.

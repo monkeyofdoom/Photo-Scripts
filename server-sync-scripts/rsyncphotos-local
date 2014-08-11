@@ -1,0 +1,4 @@
+~/rsync-files 2014/ kasmir:./PhotoArchive/2014/
+~/rsync-files Processed/ kasmir:./PhotoArchive/Processed/
+~/rsync-files Temp/ kasmir:./PhotoArchive/Temp/
+~/rsync-files Temp2/ kasmir:./PhotoArchive/Temp2/

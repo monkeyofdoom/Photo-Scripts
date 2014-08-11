@@ -1,0 +1,6 @@
+rsync --verbose --progress --stats --recursive --ignore-existing --times /Volumes/NO\ NAME/DCIM/100CANON/*.CR2 /Volumes/NO\ NAME/DCIM/100CANON/*.MOV /Volumes/NO\ NAME/DCIM/101CANON/*.CR2 /Volumes/NO\ NAME/DCIM/101CANON/*.MOV ./Temp/
+
+rsync --verbose --progress --stats --recursive --ignore-existing --times /Volumes/NO\ NAME/DCIM/100CANON/*.CR2 /Volumes/NO\ NAME/DCIM/100CANON/*.MOV /Volumes/NO\ NAME/DCIM/101CANON/*.CR2 /Volumes/NO\ NAME/DCIM/101CANON/*.MOV ./Temp\ 2/
+
+python ./renamefiles.py ./Temp/
+python ./renamefiles.py ./Temp\ 2/

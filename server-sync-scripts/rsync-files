@@ -1,0 +1,1 @@
+rsync -avux --progress --stats "$1" "$2"
